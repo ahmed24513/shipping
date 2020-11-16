@@ -1,0 +1,311 @@
+/* /////////////////////header///////////////// */
+.header {
+  background:
+    /* top, transparent black, faked with gradient */
+    linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.3)),
+    /* bottom, image */
+    url("../images/ship-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.header-h1 h1 {
+  margin-top: 130px;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.header-h1 p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.header-h1 a {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  background-color: #e0431f;
+  width: 230px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.header-h1 a:hover {
+  background: none;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* /////////////////////navbar///////////////// */
+#white-color {
+  color: white;
+}
+
+#black-color {
+  color: #170166;
+}
+
+.navbar-brand {
+  font-size: 2.3rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 20px;
+}
+
+.nav-top {
+  background-color: #e0431f;
+  transition: .3s all ease-out;
+  box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 1);
+}
+
+/* --------------------------features section----------------------------- */
+
+#features{
+  background-color: #eeeeee !important;
+}
+
+.f-num1, .f-num2 {
+  margin: auto;
+  margin-top: 110px;
+}
+
+
+#features h1 {
+  margin: auto;
+  text-transform: uppercase;
+  padding-top: 60px;
+  color: #e0431f;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#features h1::after {
+  content: '';
+  background: #e0431f;
+  width: 200px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -182%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#features p{
+  color: #737373;
+}
+
+.f-num1 h3{
+  color: #170166;
+  padding: 20px 0;
+  font-size: 2rem;
+}
+
+.f-num1 i {
+  float: right;
+  font-size: 12rem;
+  color: #170166;
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+}
+
+.f-num2 i {
+  float: left;
+  font-size: 12rem;
+  color: #170166;
+  margin-right: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.f-num2 h3{
+  color: #170166;
+  padding: 20px 0;
+  font-size: 2rem;
+}
+.f-num2{
+  margin-bottom: 190px;
+}
+
+/* -------------------services-------------------- */
+
+
+
+.head-txt{
+  padding: 70px 0;
+  text-align: center;
+}
+.head-txt h6{
+font-size: 1.125rem;
+margin-bottom: 30px;
+color:  #e0431f;
+}
+
+.head-txt h2{
+  font-size: 	3.125rem;
+  color: #170166;
+  font-weight: bold;
+}
+
+.head-txt h2::after{
+  content: '';
+  background: #170166;
+  width: 300px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -28%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.col-lg-3 {
+  text-align: center;
+  border: 1px solid #e1ebf7;
+  border-radius: 6px;
+  padding: 85px 22px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  max-width: 24%;
+  transition: transform ease 0.5s ;
+}
+
+
+.col-lg-3:hover{
+  transform: translateY(-40px);
+  cursor: pointer;
+}
+
+.col-lg-3 i{
+  color:  #e0431f;
+  display: block;
+  font-size: 3.125rem;
+  padding: 50px 0;
+}
+.col-lg-3 h3{
+  white-space: nowrap;
+  font-size: 2.25rem;
+  color: #170166;
+  padding: 30px 0;
+}
+
+/* -------------------------contact us---------------------------- */
+
+.contact-h2{
+  padding: 90px 0 30px;
+  color: #e0431f ;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.contact-h2::after{
+  content: '';
+  background: #e0431f;
+  width: 130px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+#contact-us .btn-primary ,#services .btn-primary{
+  background-color: #e0431f;
+  width: auto;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: .2rem;
+}
+
+#contact-us .btn-primary:hover{
+  background-color:#170166;
+}
+#services .btn-primary:hover{
+  background-color:#170166;
+}
+
+
+#contact-us label{
+  font-size: 1.2rem;
+}
+
+#contact-us .col-md-5 a{
+color: #e0431f;
+}
+
+#contact-us .col-md-5 a:hover{
+  text-decoration: none;
+}
+
+
+/* ------------------footer------------------ */
+footer {
+  background-color: #333333;
+  height: 80vh;
+}
+
+footer h6 {
+  color: white;
+  margin: 50px 0;
+}
+
+.ftr-div {
+  text-align: left;
+}
+
+.ftr-div ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  color: #737373;
+}
+
+.ftr-div p {
+  color: #737373;
+}
+
+footer hr {
+  background-color: #737373;
+  width: 70%;
+}
+
+.copyright {
+  text-align: center;
+  color: #737373;
+  padding-top: 2rem;
+}
+
+/* --------------------mobile----------------- */
+@media only screen and (max-width: 600px) {
+  #features {
+    height: auto;
+  }
+
+  .header-h1 h1 {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}

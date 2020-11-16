@@ -1,0 +1,11 @@
+.row input{
+  margin-bottom: 15px;
+}
+
+.row label{
+  margin-bottom: 15px;
+}
+
+body{
+  background-color: #f8f9fa!important;
+}
