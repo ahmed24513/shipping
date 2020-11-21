@@ -261,7 +261,7 @@ color: #e0431f;
 /* ------------------footer------------------ */
 footer {
   background-color: #333333;
-  height: 80vh;
+  height: 60vh;
 }
 
 footer h6 {
@@ -303,9 +303,50 @@ footer hr {
 
   .header-h1 h1 {
     font-size: 2rem;
+    text-align: left;
+  }
+
+  .header-h1 p{
+    font-size: 0.6rem;
+    text-align: left;
   }
 
   .navbar-brand {
     font-size: 1.5rem;
+  }
+  footer{
+    height: auto;
+  }
+  .col-lg-3 {
+    max-width:none;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .col-lg-3 h3{
+    font-size: 1.5rem;
+  }
+  .f-num1 i {
+    right: 50px;
+    margin-bottom: 100px;
+  }
+  .f-num2 i {
+    left: 50px;
+    margin-bottom: 100px;
+  }
+  .head-txt h2::after {
+    width: 111px;
+    bottom: -40%;
+  }
+  .head-txt h2{
+    font-size: 2.125rem;
+  }
+  #features h1::after {
+    bottom: -505%;
+}
+  #features h1{
+    font-size: 2.125rem;
+  }
+  .contact-h2 {
+    font-size: 2rem;
   }
 }

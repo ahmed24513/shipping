@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipping Company</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sign-up.css">
+  <script src="https://kit.fontawesome.com/9c7f5fa11c.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light" style="background-color: #e0431f;">
+    <a id="white-color" class="navbar-brand" href="#">EXPRESS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a id="white-color" class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a id="black-color" class="nav-link" href="#">Ship</a>
+        <a id="white-color" class="nav-link" href="#features">About Us</a>
+        <a id="white-color" class="nav-link" href="#contact-us">Contact Us</a>
+        <a id="white-color" class="nav-link" href="sign-up.html">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+  <section id="contact-us" class="bg-light mb-5">
+    <div class="container-fluid">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center border-primary">
+          <h2 class="contact-h2">Shipping Details</h2>
+        </div>
+      </div>
+      <form action="#" class="p-5 bg-white">
+        <div class="row justify-content-center">
+          <div class="col-md-6 justify-content-center mb-5">
+            <h3 class="p-5" style="text-align: center; color: #170166;">FROM</h3>
+            <div class="form-group">
+              <label for="">Full Name</label>
+              <input class="form-control" type="text" name="reciverFullName" value="">
+              <label for="">Company Name (Optional)</label>
+              <input class="form-control" type="text" name="reciverCompanyName" value="">
+              <label for="">Country</label>
+              <input class="form-control" type="email" name="reciverCounntry" value="">
+              <label for="">Address</label>
+              <input class="form-control" type="text" name="reciverAddress" value="">
+              <label for="">Email</label>
+              <input class="form-control" type="email" name="reciverEmail" value="">
+              <label for="">Phone Number</label>
+              <input class="form-control" type="text" name="reciverPhoneNumber" value="">
+            </div>
+          </div>
+          <div class="col-md-6 justify-content-center mb-5">
+            <h3 class="p-5" style="text-align: center; color: #170166;">TO</h3>
+            <div class="form-group">
+              <label for="">Full Name</label>
+              <input class="form-control" type="text" name="senderFullName" value="">
+              <label for="">Company Name (Optional)</label>
+              <input class="form-control" type="text" name="senderCompanyName" value="">
+              <label for="">Country</label>
+              <input class="form-control" type="email" name="senderCounntry" value="">
+              <label for="">Address</label>
+              <input class="form-control" type="text" name="senderAddress" value="">
+              <label for="">Email</label>
+              <input class="form-control" type="email" name="senderEmail" value="">
+              <label for="">Phone Number</label>
+              <input class="form-control" type="text" name="senderPhoneNumber" value="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <h1 style="text-align:center; margin: 1rem 0 3rem; color:#170166;">item details</h1>
+        </div>
+        <div  id="moreItem">
+        <div  class=" row justify-content-center">
+          <div class="col-md-6 justify-content-center mb-5">
+            <div class="form-group">
+              <label for="">Item Name</label>
+              <input class="form-control" type="text" name="itemName" value="">
+              <label for="">Brief Name (Optional)</label>
+              <input class="form-control" type="text" name="itemDescription" value="">
+            </div>
+          </div>
+          <div class="col-md-6 justify-content-center mb-5">
+            <div class="form-group">
+              <label for="">Item Weight (KG)</label>
+              <input class="form-control" type="text" name="itemWeight" value="">
+              <label for="">Quantaty</label>
+              <input class="form-control" type="text" name="itemQuantaty" value="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="justify-content-center" style="text-align: center; font-size:1.7rem; margin-bottom: 2rem; color:blue; cursor:pointer; "    onMouseOver="this.style.color='#170166'" onMouseOut="this.style.color='blue'">
+        <a id="buttonClick">Need More Items?</a>
+      </div>
+        <button class="btn btn-primary px-5 py-3 text-white" type="submit" name="button">Done</button>
+      </form>
+    </div>
+  </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 ftr-div">
+            <h6>About Us</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iure deserunt ut architecto dolores quo beatae laborum aliquam ipsam rem impedit obcaecati ea consequatur.</p>
+          </div>
+          <div class="col-lg-2 ftr-div">
+            <h6>Quick Links</h6>
+            <ul>
+              <li>Home</li>
+              <li>Ship</li>
+              <li>My orders</li>
+              <li>Services</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ftr-div">
+            <h6>Follow Us</h6>
+            <ul>
+              <li>facebook</li>
+              <li>instegram</li>
+              <li>twitter</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ftr-div">
+            <h6>contact Us</h6>
+            <ul>
+              <li>E-mail</li>
+              <li>Address</li>
+              <li>Phone</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright ©2020 All rights reserved</p>
+    </footer>
+
+  <script type="text/javascript" src="javascript/ship.js">
+
+  </script>
+
+</body>
+
+</html>
